@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.line{
+  fill: none;
+  stroke:#b9b9b9;
+  stroke-width: 2px;
+}
+line{
+  stroke: black;
+}
+.domain{
+  display: none;
+}
+.tick line{
+  stroke: #e4e4e4;
+}
+.label{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.line.active{
+  stroke: black;
+}
+.voronoi path{
+  pointer-events: all;
+  fill: none;
+}
+
+.tooltip-stroke{
+  stroke: white;
+  stroke-width: 3px;
+}
